@@ -19,6 +19,7 @@ import {
   Calendar,
   Copy,
   Trash2,
+  ChevronDown,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
@@ -46,6 +47,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import {
   Tooltip,
   TooltipContent,
@@ -176,21 +183,31 @@ export default function Home() {
   );
 
   // ---- Sample loader ------------------------------------------------------
-  const loadSample = useCallback(async () => {
-    try {
-      const res = await fetch("/sample.json");
-      if (!res.ok) throw new Error("no sample");
-      const text = await res.text();
-      setRawInput(text);
-      loadFromText(text);
-    } catch {
-      toast({
-        title: "Sin ejemplo",
-        description: "No se pudo cargar el archivo de ejemplo.",
-        variant: "destructive",
-      });
-    }
-  }, [loadFromText, toast]);
+  const loadSampleByPath = useCallback(
+    async (path: string, label: string) => {
+      try {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error("no sample");
+        const text = await res.text();
+        setRawInput(text);
+        loadFromText(text);
+        toast({
+          title: `Ejemplo cargado`,
+          description: `Formato: ${label}`,
+        });
+      } catch {
+        toast({
+          title: "Sin ejemplo",
+          description: "No se pudo cargar el archivo de ejemplo.",
+          variant: "destructive",
+        });
+      }
+    },
+    [loadFromText, toast],
+  );
+
+  // (Sample loading is handled by loadSampleByPath below; the header dropdown
+  // invokes it with the right path per format.)
 
   // ---- Derived data -------------------------------------------------------
   const allRows: SpreadsheetRow[] = useMemo(
@@ -291,19 +308,56 @@ export default function Home() {
                 JSON → Hoja de cálculo
               </h1>
               <p className="text-xs text-muted-foreground">
-                Convierte tips de apuestas (MultiTips / Prime) en Excel y CSV
+                Convierte tips de apuestas (MultiTips / Prime / Betbook / Betonair)
+                en Excel y CSV
               </p>
             </div>
           </div>
           <div className="ml-auto flex items-center gap-2">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={loadSample}
-              disabled={!report && !rawInput ? false : false}
-            >
-              <Sparkles className="size-4 mr-1" /> Ejemplo
-            </Button>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" size="sm">
+                  <Sparkles className="size-4 mr-1" /> Ejemplo
+                  <ChevronDown className="size-3.5 ml-1 opacity-70" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-[220px]">
+                <DropdownMenuItem
+                  onClick={() => loadSampleByPath("/sample.json", "MultiTips")}
+                >
+                  <div className="flex flex-col">
+                    <span className="font-medium">MultiTips / Prime</span>
+                    <span className="text-[11px] text-muted-foreground">
+                      FREE / VIP / BEST_OFFERS
+                    </span>
+                  </div>
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() =>
+                    loadSampleByPath("/sample_betbook.json", "Betbook")
+                  }
+                >
+                  <div className="flex flex-col">
+                    <span className="font-medium">Betbook</span>
+                    <span className="text-[11px] text-muted-foreground">
+                      tabs.FREE / VIP / OFFER
+                    </span>
+                  </div>
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() =>
+                    loadSampleByPath("/sample_betonair.json", "Betonair")
+                  }
+                >
+                  <div className="flex flex-col">
+                    <span className="font-medium">Betonair</span>
+                    <span className="text-[11px] text-muted-foreground">
+                      tabs.LIBRE / VIP (con banderas)
+                    </span>
+                  </div>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
             {report && (
               <Button variant="ghost" size="sm" onClick={reset}>
                 <Trash2 className="size-4 mr-1" /> Limpiar
@@ -529,6 +583,7 @@ export default function Home() {
                           <TableRow>
                             <TableHead className="w-[120px]">Categoría</TableHead>
                             <TableHead className="min-w-[180px]">Sección</TableHead>
+                            <TableHead className="w-[40px] text-center">Bandera</TableHead>
                             <TableHead className="w-[70px]">Hora</TableHead>
                             <TableHead className="min-w-[220px]">Liga</TableHead>
                             <TableHead className="min-w-[180px]">Local</TableHead>
@@ -544,7 +599,7 @@ export default function Home() {
                           {filteredRows.length === 0 ? (
                             <TableRow>
                               <TableCell
-                                colSpan={11}
+                                colSpan={12}
                                 className="text-center text-muted-foreground py-8"
                               >
                                 Sin resultados para los filtros actuales.
@@ -560,6 +615,9 @@ export default function Home() {
                                 </TableCell>
                                 <TableCell className="font-medium text-[13px]">
                                   {r.Section}
+                                </TableCell>
+                                <TableCell className="text-center text-[18px] leading-none">
+                                  {r.Flag}
                                 </TableCell>
                                 <TableCell className="font-mono text-[12px] text-muted-foreground">
                                   {r.Time}
@@ -695,7 +753,7 @@ function Uploader({
               o haz clic para seleccionarlo
             </p>
             <p className="text-[11px] text-muted-foreground mt-3">
-              Formatos compatibles: MultiTips y Prime Betting
+              Formatos compatibles: MultiTips · Prime · Betbook · Betonair
             </p>
           </div>
           <input

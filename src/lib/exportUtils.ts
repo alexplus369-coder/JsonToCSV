@@ -5,6 +5,7 @@ const COLUMN_ORDER = [
   "Category",
   "Section",
   "SectionId",
+  "Flag",
   "Time",
   "League",
   "Home",
@@ -20,6 +21,7 @@ const COLUMN_LABELS_ES: Record<string, string> = {
   Category: "Categoría",
   Section: "Sección",
   SectionId: "Sección ID",
+  Flag: "Bandera",
   Time: "Hora",
   League: "Liga",
   Home: "Local",
@@ -51,6 +53,7 @@ function buildSheet(rows: SpreadsheetRow[]): XLSX.WorkSheet {
     { wch: 14 }, // Categoría
     { wch: 22 }, // Sección
     { wch: 12 }, // Sección ID
+    { wch: 6 }, // Bandera
     { wch: 8 }, // Hora
     { wch: 30 }, // Liga
     { wch: 24 }, // Local
