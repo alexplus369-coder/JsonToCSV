@@ -1,0 +1,236 @@
+{
+  "app": "com.multitips",
+  "timestamp": "2026-10-16 16:57:42",
+  "FREE": [
+    {
+      "name": "Daily Sure Tips",
+      "section_key": "",
+      "section_id": "",
+      "api_url": "",
+      "predictions": []
+    },
+    {
+      "name": "Football Tips",
+      "section_key": "3c1ffa42-f854-4a48-aedd-84d9ed89f0c8",
+      "section_id": "1145",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=3c1ffa42-f854-4a48-aedd-84d9ed89f0c8&sectionId=1145&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 19:30, League: Germany Bundesliga, Home: Bayern Munich, Away: RB Leipzig, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:00, League: Turkiye Super League, Home: Fenerbahce, Away: Alanyaspor, Prediction: Over+ 1,5 Goals, Rate: 1.25, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:15, League: Spain LaLiga, Home: Villarreal, Away: Elche, Prediction: Over+ 1,5 Goals, Rate: 1.25, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Over-Under",
+      "section_key": "12a7d047-5785-4487-98f3-9019939bd733",
+      "section_id": "1146",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=12a7d047-5785-4487-98f3-9019939bd733&sectionId=1146&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 21:45, League: France Ligue 1, Home: Troyes, Away: Lens, Prediction: Over+ 1,5 Goals, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:00, League: Turkiye Super League, Home: Fenerbahce, Away: Alanyaspor, Prediction: Over+ 1,5 Goals, Rate: 1.25, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:15, League: Spain LaLiga, Home: Villarreal, Away: Elche, Prediction: Over+ 1,5 Goals, Rate: 1.25, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Single Tips",
+      "section_key": "a375b937-7aa2-41e1-8166-1aa766f7f676",
+      "section_id": "1148",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=a375b937-7aa2-41e1-8166-1aa766f7f676&sectionId=1148&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 16:00, League: Turkiye Super League, Home: Genclerbirligi, Away: Galatasaray, Prediction: Galatasaray Over+ 1,5 Goals, Rate: 1.4, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 21:00, League: Romania Superliga, Home: Dinamo Bucuresti, Away: FC Botosani, Prediction: Score 2-0, Rate: 6.0, ScoreHome: 2, ScoreAway: 0, CompetitionStatus: won}",
+        "{Time: 18:00, League: Romania Superliga, Home: FC Otelul, Away: Csikszereda, Prediction: Score 1-0 or 1-1, Rate: 7.0, ScoreHome: 1, ScoreAway: 1, CompetitionStatus: won}",
+        "{Time: 16:00, League: Tanzania Premier League, Home: Fountain Gate FC, Away: Pamba SC, Prediction: Score 1-1, Rate: 7.0, ScoreHome: 1, ScoreAway: 1, CompetitionStatus: won}"
+      ]
+    },
+    {
+      "name": "Daily 20+ Odds",
+      "section_key": "3c9076f4-949a-4314-95c5-eccb75311ebd",
+      "section_id": "1149",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=3c9076f4-949a-4314-95c5-eccb75311ebd&sectionId=1149&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 21:45, League: Italy Serie A2, Home: Libertas Livorno, Away: Super Flavor Milano, Prediction: Libertas Livorno Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 21:30, League: Italy Serie A2, Home: Brindisi, Away: Torino, Prediction: Brindisi Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Germany Bundesliga, Home: Bayern Munich, Away: RB Leipzig, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:00, League: Turkiye Super League, Home: Fenerbahce, Away: Alanyaspor, Prediction: Over+ 1,5 Goals, Rate: 1.25, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Premier League, Home: Manchester City, Away: Ipswich Town, Prediction: Over+ 2,5 Goals, Rate: 1.4, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Spain LaLiga, Home: Real Betis, Away: Barcelona, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Bonus-Surprise",
+      "section_key": "7a200c2e-d3e1-4c0d-854d-cb1b8d8bdfd0",
+      "section_id": "1150",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=7a200c2e-d3e1-4c0d-854d-cb1b8d8bdfd0&sectionId=1150&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 21:45, League: Italy Serie A2, Home: Libertas Livorno, Away: Super Flavor Milano, Prediction: Libertas Livorno Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 21:30, League: Italy Serie A2, Home: Brindisi, Away: Torino, Prediction: Brindisi Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Germany Bundesliga, Home: Bayern Munich, Away: RB Leipzig, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Basketball",
+      "section_key": "9981a853-440f-45ab-82fb-759f99ef6861",
+      "section_id": "1151",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=9981a853-440f-45ab-82fb-759f99ef6861&sectionId=1151&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 21:30, League: Italy Serie A2, Home: Brindisi, Away: Torino, Prediction: Brindisi Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: Greece Basket League, Home: Iraklis, Away: Karditsas, Prediction: Iraklis Wins, Rate: 1.4, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 15:00, League: Greece Basket League, Home: AEK Athens, Away: AO Mykonoy, Prediction: AEK Athens Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Tennis",
+      "section_key": "eabaa6ff-0dbf-4be6-96f4-e820a0f520fb",
+      "section_id": "1152",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=eabaa6ff-0dbf-4be6-96f4-e820a0f520fb&sectionId=1152&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 13:30, League:  WTA Wuhan, China, Home: Swiatek, Iga , Away: Chwalinska, Maja, Prediction: Swiatek, Iga Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 11:30, League: ATP Shanghai, China, Home: Zverev, Alexander, Away: Davidovich Fokina, Alejandro, Prediction: Zverev, Alexander Wins, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 01:15, League: Challenger Santa Cruz 2, Bolivia, Home: Seyboth Wild, Thiago, Away: Kicker, Nicolas, Prediction: Seyboth Wild, Thiago Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    }
+  ],
+  "VIP": [
+    {
+      "name": "Correct Score VIP",
+      "section_key": "",
+      "section_id": "",
+      "api_url": "",
+      "predictions": []
+    },
+    {
+      "name": "HT-FT VIP",
+      "section_key": "c5d448a8-3c04-4e94-9efa-5430d470d2e0",
+      "section_id": "1141",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=c5d448a8-3c04-4e94-9efa-5430d470d2e0&sectionId=1141&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: HT-FT 2/2, Rate: 2.05, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:00, League: Ukraine Premier League, Home: Shakhtar Donetsk, Away: Kolos Kovalivka, Prediction: HT-FT 1/1, Rate: 1.7, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Premier League, Home: Manchester City, Away: Ipswich Town, Prediction: HT-FT 1/1, Rate: 1.7, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Turkiye Super League, Home: Amedspor , Away: Konyaspor, Prediction: HT-FT 1/1, Rate: 3.0, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Finland Veikkausliiga, Championship Round, Home: HJK, Away: Gnistan, Prediction: HT-FT 1/1, Rate: 2.05, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Multi 50+ Odds VIP",
+      "section_key": "46819a68-49af-4660-8a3d-3cf15383f6a5",
+      "section_id": "1142",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=46819a68-49af-4660-8a3d-3cf15383f6a5&sectionId=1142&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 21:45, League: France Ligue 1, Home: Troyes, Away: Lens, Prediction: Over+ 2,5 Goals, Rate: 1.6, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Germany Bundesliga, Home: Bayern Munich, Away: RB Leipzig, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Spain LaLiga, Home: Real Betis, Away: Barcelona, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:00, League: Ukraine Premier League, Home: Shakhtar Donetsk, Away: Kolos Kovalivka, Prediction: Shakhtar Donetsk Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:15, League: Spain LaLiga, Home: Villarreal, Away: Elche, Prediction: Both Team Scores/Yes, Rate: 1.65, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:15, League: Spain La Liga 2, Home: Eibar, Away: Mallorca, Prediction: Both Team Scores/Yes, Rate: 1.9, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Championship, Home: Norwich City, Away: Portsmouth, Prediction: Both Team Scores/Yes, Rate: 1.65, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Premier League, Home: Manchester City, Away: Ipswich Town, Prediction: Over+ 2,5 Goals, Rate: 1.4, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Turkiye Super League, Home: Amedspor , Away: Konyaspor, Prediction: Amedspor Wins, Rate: 2.0, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Turkiye Super League, Home: Genclerbirligi, Away: Galatasaray, Prediction: Galatasaray Wins, Rate: 1.45, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Multi 10+ Odds VIP",
+      "section_key": "e69aa88a-2d4e-432a-9e70-162cd588f4e1",
+      "section_id": "9174",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=e69aa88a-2d4e-432a-9e70-162cd588f4e1&sectionId=9174&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 19:30, League: Germany Bundesliga, Home: Bayern Munich, Away: RB Leipzig, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Spain LaLiga, Home: Real Betis, Away: Barcelona, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Championship, Home: Norwich City, Away: Portsmouth, Prediction: Both Team Scores/Yes, Rate: 1.65, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Turkiye Super League, Home: Amedspor , Away: Konyaspor, Prediction: Amedspor Wins or Draw, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Finland Veikkausliiga, Championship Round, Home: HJK, Away: Gnistan, Prediction: HJK Wins, Rate: 1.45, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Special VIP",
+      "section_key": "66f05437-4916-42c9-b9eb-c4f16e268df7",
+      "section_id": "1135",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=66f05437-4916-42c9-b9eb-c4f16e268df7&sectionId=1135&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 21:30, League: Italy Serie A2, Home: Brindisi, Away: Torino, Prediction: Brindisi Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Spain LaLiga, Home: Real Betis, Away: Barcelona, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Finland Veikkausliiga, Championship Round, Home: HJK, Away: Gnistan, Prediction: HJK Wins, Rate: 1.45, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Fixed VIP",
+      "section_key": "ac8da8ec-13c9-4db1-bc28-638dd8b5392e",
+      "section_id": "1138",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=ac8da8ec-13c9-4db1-bc28-638dd8b5392e&sectionId=1138&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 19:30, League: Spain LaLiga, Home: Real Betis, Away: Barcelona, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Premier League, Home: Manchester City, Away: Ipswich Town, Prediction: Over+ 2,5 Goals, Rate: 1.4, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Mixed VIP",
+      "section_key": "1a81d510-c67e-4056-977e-fbc70fa91e90",
+      "section_id": "1143",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=1a81d510-c67e-4056-977e-fbc70fa91e90&sectionId=1143&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 21:45, League: Italy Serie A2, Home: Libertas Livorno, Away: Super Flavor Milano, Prediction: Libertas Livorno Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Spain LaLiga, Home: Real Betis, Away: Barcelona, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 11:30, League: ATP Shanghai, China, Home: Zverev, Alexander, Away: Davidovich Fokina, Alejandro, Prediction: Zverev, Alexander Wins, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Single VIP",
+      "section_key": "f7a16020-d000-490e-b459-8c3983b0ad72",
+      "section_id": "9173",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=f7a16020-d000-490e-b459-8c3983b0ad72&sectionId=9173&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 17:15, League: Spain La Liga 2, Home: Eibar, Away: Mallorca, Prediction: Both Team Scores/Yes, Rate: 1.9, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    }
+  ],
+  "BEST_OFFERS": [
+    {
+      "name": "Starter VIP",
+      "section_key": "23128c4a-286a-4c7b-a685-bc30143f1651",
+      "section_id": "9176",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=23128c4a-286a-4c7b-a685-bc30143f1651&sectionId=9176&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 21:30, League: Italy Serie A2, Home: Brindisi, Away: Torino, Prediction: Brindisi Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Spain LaLiga, Home: Real Betis, Away: Barcelona, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Finland Veikkausliiga, Championship Round, Home: HJK, Away: Gnistan, Prediction: HJK Wins, Rate: 1.45, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Premier League, Home: Manchester City, Away: Ipswich Town, Prediction: Over+ 2,5 Goals, Rate: 1.4, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 21:45, League: Italy Serie A2, Home: Libertas Livorno, Away: Super Flavor Milano, Prediction: Libertas Livorno Wins, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 11:30, League: ATP Shanghai, China, Home: Zverev, Alexander, Away: Davidovich Fokina, Alejandro, Prediction: Zverev, Alexander Wins, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    },
+    {
+      "name": "Premium VIP",
+      "section_key": "1bd0ce4c-a717-4f87-87a8-315b28aad84c",
+      "section_id": "9177",
+      "api_url": "https://app.multibetting.tips/aapi/v2/0f5c95ee-d186-4847-a5c1-5b66cbd8ad65/GetPredictions?appId=1132&sectionKey=1bd0ce4c-a717-4f87-87a8-315b28aad84c&sectionId=9177&orderId=&showHistory=false&page=1",
+      "predictions": [
+        "{Time: 19:30, League: Germany Bundesliga, Home: Bayern Munich, Away: RB Leipzig, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:30, League: Spain LaLiga, Home: Real Betis, Away: Barcelona, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: Over+ 2,5 Goals, Rate: 1.35, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Championship, Home: Norwich City, Away: Portsmouth, Prediction: Both Team Scores/Yes, Rate: 1.65, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Turkiye Super League, Home: Amedspor , Away: Konyaspor, Prediction: Amedspor Wins or Draw, Rate: 1.3, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Finland Veikkausliiga, Championship Round, Home: HJK, Away: Gnistan, Prediction: HJK Wins, Rate: 1.45, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:15, League: France Ligue 1, Home: Strasbourg, Away: PSG, Prediction: HT-FT 2/2, Rate: 2.05, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 18:00, League: Ukraine Premier League, Home: Shakhtar Donetsk, Away: Kolos Kovalivka, Prediction: HT-FT 1/1, Rate: 1.7, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Premier League, Home: Manchester City, Away: Ipswich Town, Prediction: HT-FT 1/1, Rate: 1.7, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Turkiye Super League, Home: Amedspor , Away: Konyaspor, Prediction: HT-FT 1/1, Rate: 3.0, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Finland Veikkausliiga, Championship Round, Home: HJK, Away: Gnistan, Prediction: HT-FT 1/1, Rate: 2.05, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 22:30, League: Argentina Primera Nacional, Home: Tristan Suarez, Away: CA Patronato Parana, Prediction: Score 2-0, Rate: 6.0, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Finland Veikkausliiga, Championship Round, Home: HJK, Away: Gnistan, Prediction: Score 2-0, Rate: 6.0, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:00, League: England Championship, Home: Norwich City, Away: Portsmouth, Prediction: Score 1-1, Rate: 7.5, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 21:45, League: France Ligue 1, Home: Troyes, Away: Lens, Prediction: Score 0-2 or 1-2, Rate: 8.5, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 19:00, League: Turkiye Super League, Home: Fenerbahce, Away: Alanyaspor, Prediction: Score 1-1 or 2-1, Rate: 8.0, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 17:15, League: Spain La Liga 2, Home: Eibar, Away: Mallorca, Prediction: Score 1-1 or 2-1, Rate: 8.0, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}",
+        "{Time: 16:00, League: Turkiye Super League, Home: Genclerbirligi, Away: Galatasaray, Prediction: Score 1-1 or 1-2, Rate: 8.0, ScoreHome: 0, ScoreAway: 0, CompetitionStatus: notStarted}"
+      ]
+    }
+  ]
+}
